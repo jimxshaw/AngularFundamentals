@@ -13,6 +13,9 @@
       "./node_modules/@types/"
     ]
   },
+  "include": [
+    "app/**/*"
+  ],
   "compileOnSave": true,
   "exclude": [
     "node_modules/*",
