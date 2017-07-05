@@ -34,23 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events-list.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="190">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
-                <marker date="1499278781000" expanded="true" signature="112:309" ph="..." />
+                <marker date="1499280662000" expanded="true" signature="112:418" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-thumbnail.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="event-thumbnail.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="171">
+              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="event-thumbnail.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            <state relative-caret-position="171">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="e#260#266#1" expanded="true" />
               </folding>
@@ -287,12 +287,12 @@
       <updated>1499207110871</updated>
       <workItem from="1499207118798" duration="5678000" />
       <workItem from="1499265797374" duration="559000" />
-      <workItem from="1499266388497" duration="2627000" />
+      <workItem from="1499266388497" duration="3441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8864000" />
+    <option name="totallyTimeSpent" value="9678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="1687" height="1177" extended-state="0" />
@@ -384,7 +384,7 @@
         <state relative-caret-position="171">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <marker date="1499278781000" expanded="true" signature="112:309" ph="..." />
+            <marker date="1499280662000" expanded="true" signature="112:418" ph="..." />
           </folding>
         </state>
       </provider>
@@ -420,7 +420,7 @@
         <state relative-caret-position="76">
           <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
           <folding>
-            <marker date="1499278781000" expanded="true" signature="112:309" ph="..." />
+            <marker date="1499280662000" expanded="true" signature="112:418" ph="..." />
           </folding>
         </state>
       </provider>
@@ -513,10 +513,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.html">
+    <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <marker date="1499280662000" expanded="true" signature="112:418" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="e#260#266#1" expanded="true" />
           </folding>
@@ -525,19 +535,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-thumbnail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/events-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <marker date="1499278781000" expanded="true" signature="112:309" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

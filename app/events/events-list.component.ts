@@ -7,7 +7,9 @@ import {Component} from "@angular/core";
             <h1>Upcoming Angular Events</h1>
             <hr>
             
-            <event-thumbnail [event]="event1" (eventClick)="handleEventClicked($event)"></event-thumbnail>
+            <event-thumbnail #thumbnail [event]="event1"></event-thumbnail>
+            <h3>{{thumbnail.someProp}}</h3>
+            <button class="btn btn-success" (click)="thumbnail.logMessage()">Click Me!</button>
         </div>
     `
 })
@@ -26,7 +28,5 @@ export class EventsListComponent {
         }
     };
 
-    handleEventClicked(data) {
-        console.log("Emitted from child component: " + data);
-    }
+
 }
