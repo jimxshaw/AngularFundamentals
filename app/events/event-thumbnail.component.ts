@@ -2,14 +2,14 @@ import {Component, Input} from "@angular/core";
 
 @Component({
     selector: "event-thumbnail",
-    templateUrl: "app/events/event-thumbnail.component.html"
+    templateUrl: "app/events/event-thumbnail.component.html",
+    styles: [`
+        .pad-left { margin-left: 25px; }
+        .well div { color: #bbb; }
+    `]
 })
 export class EventThumbnailComponent {
     @Input() event: any;
 
-    someProp: string = "This is some prop on a child component.";
 
-    logMessage() {
-        console.log("Logging a message!");
-    }
 }

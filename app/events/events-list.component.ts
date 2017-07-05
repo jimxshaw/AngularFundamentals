@@ -8,8 +8,6 @@ import {Component} from "@angular/core";
             <hr>
             
             <event-thumbnail #thumbnail [event]="event1"></event-thumbnail>
-            <h3>{{thumbnail.someProp}}</h3>
-            <button class="btn btn-success" (click)="thumbnail.logMessage()">Click Me!</button>
         </div>
     `
 })
