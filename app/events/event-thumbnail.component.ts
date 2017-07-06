@@ -22,4 +22,5 @@ export class EventThumbnailComponent {
             bold: isEarlyStart
         };
     }
+
 }
