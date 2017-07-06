@@ -323,6 +323,41 @@ export class EventsListComponent {
                     voters: ['bradgreen', 'igorminar', 'johnpapa']
                 }
             ]
+        },
+        {
+            id: 6,
+            name: 'ng-dallas',
+            date: '8/19/2019',
+            time: '9:30 am',
+            price: 39.99,
+            imageUrl: '/app/assets/images/ng-conf.png',
+            onlineUrl: "http://ng-nl.org/",
+            sessions: [
+                {
+                    id: 1,
+                    name: "Gambling with Angular",
+                    presenter: "John Papa",
+                    duration: 1,
+                    level: "Intermediate",
+                    abstract: `No, this talk isn't about slot machines. We all know that 
+          Angular is used in most waiter-bots and coke vending machines, but
+          did you know that was also used to write the core engine in the majority
+          of voting machines? This talk will look at how all presidential elections
+          are now determined by Angular code.`,
+                    voters: ['bradgreen', 'igorminar']
+                },
+                {
+                    id: 2,
+                    name: "Angular 4 in 60ish Minutes",
+                    presenter: "Dan Wahlin",
+                    duration: 2,
+                    level: "Beginner",
+                    abstract: `Get the skinny on Angular 4 for anyone new to this great new technology.
+          Dan Wahlin will show you how you can get started with Angular in 60ish minutes, 
+          guaranteed!`,
+                    voters: ['bradgreen', 'igorminar', 'johnpapa']
+                }
+            ]
         }
     ]
 
