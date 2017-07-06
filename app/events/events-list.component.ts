@@ -102,7 +102,7 @@ export class EventsListComponent {
             price: 950.00,
             imageUrl: '/app/assets/images/ng-nl.png',
             location: {
-                address: 'The NG-NL Convention Center & Scuba Shop',
+                address: 'NL Center',
                 city: 'Amsterdam',
                 country: 'Netherlands'
             },
