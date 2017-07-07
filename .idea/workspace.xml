@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0988b4a9-5dfb-4b36-9413-814139cbfa68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/events/create-event.component.ts" afterPath="$PROJECT_DIR$/app/events/create-event.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.ts" afterPath="$PROJECT_DIR$/app/routes.ts" />
-    </list>
+    <list default="true" id="0988b4a9-5dfb-4b36-9413-814139cbfa68" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -371,12 +367,12 @@
       <workItem from="1499266388497" duration="3606000" />
       <workItem from="1499280970230" duration="1915000" />
       <workItem from="1499350934891" duration="6623000" />
-      <workItem from="1499435800597" duration="10009000" />
+      <workItem from="1499435800597" duration="10233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28390000" />
+    <option name="totallyTimeSpent" value="28614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="1687" height="1177" extended-state="0" />
