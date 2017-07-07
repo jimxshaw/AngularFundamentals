@@ -3,7 +3,9 @@ import {EventService} from "./shared/event.service";
 import {ToastrService} from "../common/toastr.service";
 
 @Component({
-    selector: "events-list",
+    // This selector is no longer needed as we already routing
+    // to it directly through the provided routes.
+    // selector: "events-list",
     template: `
         <div>
             <h1>Upcoming Angular Events</h1>
