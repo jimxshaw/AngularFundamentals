@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0988b4a9-5dfb-4b36-9413-814139cbfa68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/events/event-route-activator.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/events/create-event.component.ts" afterPath="$PROJECT_DIR$/app/events/create-event.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.ts" afterPath="$PROJECT_DIR$/app/routes.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="621">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -38,11 +37,11 @@
       <file leaf-file-name="create-event.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/events/create-event.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="342">
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1499452177000" expanded="true" signature="180:451" ph="..." />
+                <marker date="1499459299000" expanded="true" signature="180:451" ph="..." />
               </folding>
             </state>
           </provider>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="304">
+              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="99" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -115,11 +114,11 @@
         <option value="$PROJECT_DIR$/app/events/event-detail/event-details.component.ts" />
         <option value="$PROJECT_DIR$/app/events/event-thumbnail.component.html" />
         <option value="$PROJECT_DIR$/app/nav/navbar.component.html" />
-        <option value="$PROJECT_DIR$/app/events/create-event.component.ts" />
         <option value="$PROJECT_DIR$/app/errors/status-404.component.ts" />
-        <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/events/event-route-activator.service.ts" />
         <option value="$PROJECT_DIR$/app/routes.ts" />
+        <option value="$PROJECT_DIR$/app/events/create-event.component.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -372,12 +371,12 @@
       <workItem from="1499266388497" duration="3606000" />
       <workItem from="1499280970230" duration="1915000" />
       <workItem from="1499350934891" duration="6623000" />
-      <workItem from="1499435800597" duration="8477000" />
+      <workItem from="1499435800597" duration="10009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26858000" />
+    <option name="totallyTimeSpent" value="28390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="23" width="1687" height="1177" extended-state="0" />
@@ -799,27 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/events/create-event.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1499452177000" expanded="true" signature="180:451" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/events/event-route-activator.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -830,12 +808,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/events/create-event.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1499459299000" expanded="true" signature="180:451" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="304">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="99" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

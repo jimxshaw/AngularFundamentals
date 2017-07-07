@@ -11,10 +11,10 @@ import {EventRouteActivatorService} from "./events/event-route-activator.service
 // The ordering of routes is important. The events/new route is above
 // the events/:id route because we don't want events/new to be processed
 // as if it were events/:id.
-// The canActivate property takes in an array of route guard services that
-// specifies rules of if/when a particular route can be accessed.
+// The canActivate/canDeactivate properties take in an array of route guard services or functions that
+// specify rules of if/when a particular route can be accessed or prevent navigating away from a route.
 export const appRoutes: Routes = [
-    {path: "events/new", component: CreateEventComponent},
+    {path: "events/new", component: CreateEventComponent, canDeactivate: ["canDeactivateCreateEvent"]}, // This uses a function rather a service but still needs to be registered in AppModule's providers.
     {path: "events", component: EventsListComponent},
     {path: "events/:id", component: EventDetailsComponent, canActivate: [EventRouteActivatorService]},
     {path: "404", component: Status404Component},
