@@ -9,6 +9,7 @@ import {ToastrService} from "./common/toastr.service";
 import {EventDetailsComponent} from "./events/event-detail/event-details.component";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
+import {CreateEventComponent} from "./events/create-event.component";
 
 @NgModule({
     imports: [
@@ -21,7 +22,8 @@ import {appRoutes} from "./routes";
         EventsAppComponent,
         EventsListComponent,
         EventThumbnailComponent,
-        EventDetailsComponent
+        EventDetailsComponent,
+        CreateEventComponent
     ],
     providers: [
         EventService,
