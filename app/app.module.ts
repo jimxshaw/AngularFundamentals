@@ -10,6 +10,7 @@ import {EventDetailsComponent} from "./events/event-detail/event-details.compone
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
 import {CreateEventComponent} from "./events/create-event.component";
+import {Status404Component} from "./errors/status-404.component";
 
 @NgModule({
     imports: [
@@ -23,7 +24,8 @@ import {CreateEventComponent} from "./events/create-event.component";
         EventsListComponent,
         EventThumbnailComponent,
         EventDetailsComponent,
-        CreateEventComponent
+        CreateEventComponent,
+        Status404Component
     ],
     providers: [
         EventService,
