@@ -22,5 +22,9 @@ export const appRoutes: Routes = [
     {path: "events", component: EventsListComponent, resolve: {events: EventsListResolverService}},
     {path: "events/:id", component: EventDetailsComponent, canActivate: [EventRouteActivatorService]},
     {path: "404", component: Status404Component},
-    {path: "", redirectTo: "/events", pathMatch: "full"}, // Default route.
+    // Default route.
+    {path: "", redirectTo: "/events", pathMatch: "full"},
+    // Any routes that has user is designated to be part of the UserModule, which is a child
+    // module to the main AppModule. The path to the child module is needed + # + child module name.
+    {path: "user", loadChildren: "app/user/user.module#UserModule"}
 ];

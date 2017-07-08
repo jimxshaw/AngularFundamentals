@@ -22,7 +22,7 @@ export class CreateEventComponent {
 
     }
 
-    cancel() {
+    cancel(): void {
         this.router.navigate(["/events"]);
     }
 
