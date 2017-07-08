@@ -19,14 +19,16 @@ import {ToastrService} from "../common/toastr.service";
     `
 })
 export class EventsListComponent implements OnInit {
-    events: any[];
+    events: any;
 
     constructor(private eventService: EventService, private toastrService: ToastrService) {
 
     }
 
     ngOnInit() {
-        this.events = this.eventService.getEvents();
+        // An observable stream is returned from getEvents and we subscribe to it, mapping
+        // the retrieved events to our events property.
+        this.eventService.getEvents().subscribe(events => { this.events = events });
     }
 
     handleThumbnailClick(eventName) {
