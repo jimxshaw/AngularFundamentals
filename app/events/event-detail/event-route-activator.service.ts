@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {ActivatedRouteSnapshot, CanActivate, Router} from "@angular/router";
-import {EventService} from "./shared/event.service";
+import {EventService} from "../shared/event.service";
 
 // This service is to guard against unintended route access or enforce
 // certain routes.

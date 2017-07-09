@@ -1,10 +1,12 @@
-import {EventsListComponent} from "./events/events-list.component";
-import {EventDetailsComponent} from "./events/event-detail/event-details.component";
-import {CreateEventComponent} from "./events/create-event.component";
 import {Status404Component} from "./errors/status-404.component";
 import {Routes} from "@angular/router";
-import {EventRouteActivatorService} from "./events/event-route-activator.service";
-import {EventsListResolverService} from "./events/events-list-resolver.service"; // TS type definition for extra intellisense and compile time safety in our IDE.
+import {
+    CreateEventComponent,
+    EventsListComponent,
+    EventRouteActivatorService,
+    EventsListResolverService, // TS type definition for extra intellisense and compile time safety in our IDE.
+    EventDetailsComponent
+} from "./events/index";
 
 // Whenever the URL hits /events/ then show the EventsListComponent
 // wherever the <router-outlet> component is placed. That currently
