@@ -1,22 +1,20 @@
-import {Component} from "@angular/core";
+import {Component} from '@angular/core'
 import {Router} from "@angular/router";
 
 @Component({
     template: `
-        <h1>New Event</h1>
+        <h1>Edit Your Profile</h1>
         <hr>
         <div class="col-md-6">
-            <h3>[Create an event form will go here]</h3>
-            <br>
-            <br>
+            <h3>[Edit profile form will go here]</h3>
+            <br/>
+            <br/>
             <button type="submit" class="btn btn-primary">Save</button>
             <button type="button" class="btn btn-default" (click)="cancel()">Cancel</button>
         </div>
-    `
+    `,
 })
-export class CreateEventComponent {
-
-    isDirty: boolean = true;
+export class ProfileComponent {
 
     constructor(private router: Router) {
 
@@ -25,5 +23,4 @@ export class CreateEventComponent {
     cancel(): void {
         this.router.navigate(["/events"]);
     }
-
 }
