@@ -1,6 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {EventService} from "../shared/event.service";
 import {ActivatedRoute} from "@angular/router";
+import {IEvent} from "../shared/index";
 
 @Component({
     // No selector is needed for this component because we reach
@@ -13,7 +14,7 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class EventDetailsComponent implements OnInit {
 
-    event: any;
+    event: IEvent;
 
     constructor(private eventService: EventService, private activatedRoute: ActivatedRoute) {
 
