@@ -4,11 +4,26 @@ import {Component, Input} from "@angular/core";
     selector: "event-thumbnail",
     templateUrl: "app/events/event-thumbnail.component.html",
     styles: [`
-        .gold { color: gold !important; }
-        .bold { font-weight: bold; }
-        .thumbnail { min-height: 210px; min-width: 300px; }
-        .pad-left { margin-left: 25px; }
-        .well div { color: #bbb; }
+        .gold {
+            color: gold !important;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .thumbnail {
+            min-height: 210px;
+            min-width: 300px;
+        }
+
+        .pad-left {
+            margin-left: 25px;
+        }
+
+        .well div {
+            color: #bbb;
+        }
     `]
 })
 export class EventThumbnailComponent {
