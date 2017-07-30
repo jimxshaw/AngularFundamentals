@@ -17,6 +17,7 @@ import {
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {CreateSessionComponent} from "./events/event-detail/create-session.component";
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
         EventThumbnailComponent,
         EventDetailsComponent,
         CreateEventComponent,
-        Status404Component
+        Status404Component,
+        CreateSessionComponent
     ],
     providers: [
         EventService,

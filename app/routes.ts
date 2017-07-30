@@ -5,7 +5,8 @@ import {
     EventsListComponent,
     EventRouteActivatorService,
     EventsListResolverService, // TS type definition for extra intellisense and compile time safety in our IDE.
-    EventDetailsComponent
+    EventDetailsComponent,
+    CreateSessionComponent
 } from "./events/index";
 
 // Whenever the URL hits /events/ then show the EventsListComponent
@@ -23,6 +24,7 @@ export const appRoutes: Routes = [
     // some data, add that data to the route as a property named events.
     {path: "events", component: EventsListComponent, resolve: {events: EventsListResolverService}},
     {path: "events/:id", component: EventDetailsComponent, canActivate: [EventRouteActivatorService]},
+    {path: "events/session/new", component: CreateSessionComponent},
     {path: "404", component: Status404Component},
     // Default route.
     {path: "", redirectTo: "/events", pathMatch: "full"},
