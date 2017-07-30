@@ -16,10 +16,13 @@ import {
     EventsListResolverService
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
     imports: [
         BrowserModule,
+        FormsModule,
+        ReactiveFormsModule,
         // Define our routes and register them within the imported RouterModule.
         RouterModule.forRoot(appRoutes)
     ],
