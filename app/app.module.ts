@@ -15,7 +15,8 @@ import {
     EventRouteActivatorService,
     EventsListResolverService,
     SessionListComponent,
-    CreateSessionComponent
+    CreateSessionComponent,
+    DurationPipe
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -40,7 +41,8 @@ import {CollapsibleWellComponent} from "./common/collapsible-well.component";
         Status404Component,
         CreateSessionComponent,
         SessionListComponent,
-        CollapsibleWellComponent
+        CollapsibleWellComponent,
+        DurationPipe
     ],
     providers: [
         EventService,
