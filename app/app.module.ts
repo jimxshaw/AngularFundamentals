@@ -2,7 +2,7 @@ import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {EventsAppComponent} from "./events-app.component";
 import {NavbarComponent} from "./nav/navbar.component";
-import {ToastrService} from "./common/toastr.service";
+import {TOASTR_TOKEN, Toastr} from "./common/toastr.service";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
 import {Status404Component} from "./errors/status-404.component";
@@ -22,6 +22,9 @@ import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {CollapsibleWellComponent} from "./common/collapsible-well.component";
 
+// Declare the toastr variable so that we contain this global
+// object within the scope of this module.
+declare let toastr: Toastr;
 
 @NgModule({
     imports: [
@@ -46,7 +49,10 @@ import {CollapsibleWellComponent} from "./common/collapsible-well.component";
     ],
     providers: [
         EventService,
-        ToastrService,
+        {
+            provide: TOASTR_TOKEN,
+            useValue: toastr
+        },
         EventRouteActivatorService,
         EventsListResolverService,
         {
