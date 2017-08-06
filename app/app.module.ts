@@ -2,7 +2,13 @@ import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {EventsAppComponent} from "./events-app.component";
 import {NavbarComponent} from "./nav/navbar.component";
-import {TOASTR_TOKEN, Toastr} from "./common/toastr.service";
+import {
+    TOASTR_TOKEN,
+    Toastr,
+    CollapsibleWellComponent,
+    JQ_TOKEN,
+    SimpleModalComponent
+} from "./common/index";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
 import {Status404Component} from "./errors/status-404.component";
@@ -20,11 +26,11 @@ import {
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {CollapsibleWellComponent} from "./common/collapsible-well.component";
 
 // Declare the toastr variable so that we contain this global
 // object within the scope of this module.
 declare let toastr: Toastr;
+declare let jQuery: Object;
 
 @NgModule({
     imports: [
@@ -45,7 +51,8 @@ declare let toastr: Toastr;
         CreateSessionComponent,
         SessionListComponent,
         CollapsibleWellComponent,
-        DurationPipe
+        DurationPipe,
+        SimpleModalComponent
     ],
     providers: [
         EventService,
@@ -59,7 +66,11 @@ declare let toastr: Toastr;
             provide: "canDeactivateCreateEvent",
             useValue: checkDirtyState
         },
-        AuthService
+        AuthService,
+        {
+            provide: JQ_TOKEN,
+            useValue: jQuery
+        }
     ],
     bootstrap: [EventsAppComponent]
 })
