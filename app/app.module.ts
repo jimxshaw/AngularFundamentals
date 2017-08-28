@@ -23,7 +23,8 @@ import {
     EventsListResolverService,
     SessionListComponent,
     CreateSessionComponent,
-    DurationPipe
+    DurationPipe,
+    UpvoteComponent
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -54,7 +55,8 @@ declare let jQuery: Object;
         CollapsibleWellComponent,
         DurationPipe,
         SimpleModalComponent,
-        ModalTriggerDirective
+        ModalTriggerDirective,
+        UpvoteComponent
     ],
     providers: [
         EventService,
