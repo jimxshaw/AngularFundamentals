@@ -24,7 +24,8 @@ import {
     SessionListComponent,
     CreateSessionComponent,
     DurationPipe,
-    UpvoteComponent
+    UpvoteComponent,
+    VoterService
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -74,7 +75,8 @@ declare let jQuery: Object;
         {
             provide: JQ_TOKEN,
             useValue: jQuery
-        }
+        },
+        VoterService
     ],
     bootstrap: [EventsAppComponent]
 })
