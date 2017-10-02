@@ -29,6 +29,7 @@ import {
 } from "./events/index";
 import {AuthService} from "./user/auth.service";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {LocationValidatorDirective} from "./events/location-validator.directive";
 
 // Declare the toastr variable so that we contain this global
 // object within the scope of this module.
@@ -57,7 +58,8 @@ declare let jQuery: Object;
         DurationPipe,
         SimpleModalComponent,
         ModalTriggerDirective,
-        UpvoteComponent
+        UpvoteComponent,
+        LocationValidatorDirective
     ],
     providers: [
         EventService,
@@ -76,7 +78,8 @@ declare let jQuery: Object;
             provide: JQ_TOKEN,
             useValue: jQuery
         },
-        VoterService
+        VoterService,
+        LocationValidatorDirective
     ],
     bootstrap: [EventsAppComponent]
 })
